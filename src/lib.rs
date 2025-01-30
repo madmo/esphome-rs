@@ -7,9 +7,8 @@
 //#![allow(clippy::cast_possible_truncation)]
 #![allow(clippy::struct_excessive_bools)]
 
+include!(concat!(env!("OUT_DIR"), "/protos/mod.rs"));
 
-mod api;
-mod api_options;
 pub mod connection;
 pub mod device;
 pub mod model;

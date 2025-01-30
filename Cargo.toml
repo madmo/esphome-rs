@@ -12,12 +12,12 @@ path = "src/lib.rs"
 
 [dependencies]
 protobuf = "3"
-thiserror = "1.0.37"
+thiserror = "2.0.11"
 num-traits = "0.2"
-num-derive = "0.3"
+num-derive = "0.4.2"
 
 [dev-dependencies]
 structopt = "0.3"
 
 [build-dependencies]
-protobuf-codegen-pure = "2.3"
+protobuf-codegen = "3.7.1"
